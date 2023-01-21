@@ -1,13 +1,14 @@
-## A simple, fast, proxy middleware app for node.js
+### A simple, fast, proxy middleware app for node.js
 
-## INSTALLATION
+### INSTALLATION
 
 - clone this repo
 - npm install
-- node app.js
 
-## USAGE
-- set your proxy settings in .env file
+### USAGE
+- copy .env.example to .env
+- edit .env
+- run `node app.js`
 
-## LICENSE
+### LICENSE
 MIT
