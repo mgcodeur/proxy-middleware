@@ -1,0 +1,21 @@
+{
+  "name": "proxy-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "mgcodeur@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "g": "^2.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemon": "^2.0.20"
+  }
+}
