@@ -6,9 +6,8 @@
 - npm install
 
 ### USAGE
-- copy .env.example to .env
-- edit .env
-- run `node app.js`
+- edit `config.json` in src/configs folder
+- run `npm run start` to start the app
 
 ### LICENSE
 MIT

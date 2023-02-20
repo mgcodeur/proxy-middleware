@@ -1,21 +1,38 @@
 {
   "name": "proxy-middleware",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple, easy and fast proxy middleware made with express and http-proxy-middleware",
   "main": "app.js",
   "scripts": {
-    "test": "serve"
+    "start": "nodemon --exec npx @babel/node src/main.js"
   },
   "keywords": [
-    "proxy"
+    "proxy middleware",
+    "proxy",
+    "middleware",
+    "proxy middleware nodejs",
+    "proxy middleware express",
+    "simple, easy and fast proxy middleware"
   ],
   "author": "mgcodeur@gmail.com",
+  "contributors": [
+    {
+      "name": "mgcodeur",
+      "email": "mgcodeur@gmail.com",
+      "url": "https://github.com/mgcodeur",
+      "role": "developer, creator, maintainer"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "g": "^2.0.1",
     "http-proxy-middleware": "^2.0.6",
     "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
   }
 }
