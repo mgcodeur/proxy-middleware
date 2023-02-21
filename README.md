@@ -6,7 +6,8 @@
 - npm install
 
 ### USAGE
-- edit `config.json` in src/configs folder
+- edit `proxy.config.json` to add your proxy rules
+- edit  `src/configs/server.config.json` to add your server configs like port
 - run `npm run start` to start the app
 
 ### LICENSE
