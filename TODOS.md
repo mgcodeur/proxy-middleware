@@ -1,3 +1,3 @@
 - <strike>Add many url</strike> 
 - <strike>Add configuration file in config folder</strike>
-- `By pass url`
+- By pass url
